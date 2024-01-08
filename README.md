@@ -7,7 +7,7 @@ Follow these steps to get your project up and running:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/priyankaverma2/IPODashboard.git
+   git clone https://github.com/priyankaverma2/IPOApp.git
     ```
 
 ## Scripts to Run the project
@@ -32,7 +32,7 @@ In the project directory, you can run:
 
     - Run the app:
         ```bash
-        npm start
+        expo start
         ```
     Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
@@ -58,8 +58,7 @@ The application will serve as a platform where users can view a calendar of upco
 - Feature 2: [Registration]
 - Feature 3: [Dashboard]
 - Feature 4: [Currency]
-- Feature 5: [ThemeToggle]
-- Feature 6: [Logout]
+- Feature 5: [Logout]
 
 ## Prerequisites
 
@@ -68,13 +67,12 @@ Before you begin, ensure you have met the following requirements:
 - [Node.js](https://nodejs.org/) installed
 - [npm](https://www.npmjs.com/) package manager installed
 - [Login] Username: priyanka, Password: priyanka
-- [Intenet] make sure you have internet connection with high speed.
+- [Interet] make sure you have internet connection with high speed.
 
 ## Usage 
 - 1. you need to `login` first 
 - 2. you can see latest IPOs on `dashboard`.
-- 4. you can add to `currency` and delete from currency.
-- 5. you can change `theme` by theme button on header.
-- 8. you can logout when done with the exploration if you want to.
+- 3. you can add to `currency` and delete from currency.
+- 4. you can logout when done with the exploration if you want to.
 
 *You can explore more*
