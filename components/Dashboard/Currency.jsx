@@ -46,6 +46,7 @@ const Currency = () => {
     }, []);
 
     return (
+        <View style={{ flex: 1 }}>
         <View style={[styles.container, themeStyles]}>
             <View style={styles.dashboardContainer}>
                 <View style={styles.headerContainer}>
@@ -115,11 +116,15 @@ const Currency = () => {
                 </View>
             </View>
         </View>
+        </View>
     );
 };
 
 const styles = StyleSheet.create({
     container: {
+        maxWidth: 500,
+        alignSelf: 'center', 
+        width: '100%',
         flex: 1,
         backgroundColor: 'white',
     },

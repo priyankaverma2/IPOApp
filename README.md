@@ -32,7 +32,7 @@ In the project directory, you can run:
 
     - Run the app:
         ```bash
-        expo start
+        npm start
         ```
     Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
